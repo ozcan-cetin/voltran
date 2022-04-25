@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  margin: 0;
+}
+
+header {
+  height: 100px;
+  background-color: tomato;
+  position: fixed;
+  display: block;
+  width: 100%;
+  z-index: 1;
+}
+
+header h1 {
+  width: 220px;
+  margin: auto;
+  margin-top: 16px;
+  text-align: center;
+  padding: 7px;
+  color: white;
+  border: 10px solid white;
+  border-radius: 36px;
+}
+
+section.voltran1 {
+  display: block;
+  /* border: 10px solid red; */
+}
+
+section img {
+  max-width: 100%;
+}
+
+nav.nav {
+  display: block;
+  position: sticky;
+  top: 100px;
+  /* border: 10px solid green; */
+}
+
+nav .liste {
+  background-color: #f4f4f4;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
+  position: relative;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav .liste a {
+  text-decoration: none;
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+nav ul .join {
+  color: red;
+}
+
+nav .liste li :hover {
+  text-decoration: underline;
+}
+
+main {
+  display: block;
+  /* border: 10px solid blue; */
+}
+
+article .article {
+  display: block;
+}
+
+article h1 {
+  color: red;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  margin-left: 100px;
+  font-size: 50px;
+}
+
+article span {
+  font-weight: bold;
+}
+
+article p {
+  line-height: 2;
+  margin-bottom: 100px;
+  margin-left: 100px;
+  margin-right: 100px;
+  text-align: justify;
+  font-size: 30px;
+}
+
+section.voltrans {
+  display: flex;
+  justify-content: space-around;
+}
+
+section.voltrans img {
+  width: 25%;
+}
+
+section.jointoday {
+  display: block;
+  background-color: #dcdcdc;
+  height: 250px;
+}
+
+section.jointoday h1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  padding-top: 30px;
+  font-size: 40px;
+}
+
+section.jointoday p {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0 30px 0;
+  font-size: 25px;
+}
+
+#email {
+  width: 340px;
+  height: 60px;
+  border-radius: 20%/80%;
+  text-align: center;
+  display: block;
+  margin-right: 5px;
+  font-size: 30px;
+}
+
+#submit {
+  height: 60px;
+  width: 90px;
+  /* border: 1px solid green; */
+  border-radius: 40%/80%;
+  display: block;
+  cursor: pointer;
+  font-size: 30px;
+}
+
+section.jointoday form {
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  background-color: tomato;
+  display: block;
+  /* border: 10px solid blue; */
+  height: 100px;
+}
+
+footer h4 {
+  text-align: center;
+  padding: 30px;
+  font-size: 30px;
+  color: white;
+}
+
+
